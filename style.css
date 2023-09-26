@@ -5,21 +5,36 @@
 }
 .contenedor{
     height: 100vh;
+    background-image: linear-gradient(to right top, #ffffff, #ddd6ff, #b9aeff, #9287ff, #6161fd);
+}
+.container{
+    height: 60vh;
+    border: solid 1px;
+    padding: 2em;
+    box-shadow: 2px 2px 2px 2px black;
+    background-color: #ddd6ff;
 }
 .num{
     height: 2em;
     width: 3em;
-    border: solid 1px black;
+    background-color: white;
+    border-radius: 25px;
+    
 }
-
+.btn{
+    background-color: black;
+    color: white
+}
 .col-3{
     margin-top: 5em;
     height: 5em;
-    border: solid 1px;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
     visibility: hidden;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px black;
+
 }
